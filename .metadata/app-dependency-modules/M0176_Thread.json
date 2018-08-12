@@ -1,0 +1,38 @@
+{
+	"syncMethodes":[
+		{
+			"Description":"主线程等待方法",
+			"Paras":[
+				{
+					"DefaultValue":"1000",
+					"Type":"Number",
+					"Description":"等待毫秒数 必填",
+					"Required":1,
+					"ID":"msec",
+					"Name":"等待毫秒数"
+				}
+			],
+			"ID":"sleep",
+			"ReturnType":"",
+			"Name":"主线程等待方法",
+			"ReturnDesc":"none"
+		}
+	],
+	"Type":"SM",
+	"Description":"线程相关等，例如 sleep方法",
+	"Version":"",
+	"Events":[],
+	"ID":"M0176_Thread",
+	"Icon":"doWork/20180812/548577983d0c45e594ff755fc2c8614c.png",
+	"asyncMethodes":[],
+	"IOS":{
+		"MinVersion":"",
+		"Support":0
+	},
+	"Properties":[],
+	"IsContainer":"",
+	"Android":{
+		"MinVersion":"2.3",
+		"Support":1
+	}
+}
